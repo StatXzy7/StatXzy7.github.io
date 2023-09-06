@@ -85,9 +85,9 @@ author:
   bio              : "4th year undergraduate student in Statistics"
   location         : "London ON - Canada"
   employer         :
-  pubmed           : "To be None"
-  googlescholar    : "None"
-  email            :
+  pubmed           : # "To be done"
+  googlescholar    : # "To be done"
+  email            : "ziyangxu0205@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/StatXzy7"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "To be done"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "To be done"
   vine             :
   weibo            :
   xing             :
