@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Ziyang Xu"
   avatar           : "photoT.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "4th year undergraduate student in Statistics"
+  location         : "London ON - Canada"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : "To be None"
+  googlescholar    : "None"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
