@@ -24,7 +24,7 @@ Research
 - Deep Learning for Integrating Multimodal Data for Precision Medicine
   - Mitacs Globalink Research Internship 2023 (Advisor: Pingzhao Hu)
   - Western University, Canada, (Jun. 2023 - Present) 
-  - Developing deep learning algorithms for predicting spatial transcriptomics from histology images.
+  - (Currently working) Developing deep learning algorithms for predicting spatial transcriptomics from histology images.
 - Identification of phosphorylation sites based on pretrained model and Transformer [[PDF]](https://arxiv.org/abs/2308.05115) [[Code]](https://github.com/StatXzy7/PTransIPs)
   - Individual research, (Nov. 2022 - Aug. 2023)
   - Improving deep learning algorithms for the identification of phosphorylation sites, achieving AUROCs of 0.9232 and 0.9660 for identifying phosphorylated S/T and Y sites respectively, the best performance to date.
