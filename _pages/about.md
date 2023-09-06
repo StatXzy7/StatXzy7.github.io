@@ -40,4 +40,9 @@ Research
 Experiences
 ======
 - Summer School "Data Science and Machine Learning"
+  - Department of Applied and Computational Mathematics and Statistics, University of Notre Dame (Instructor: Jun Li)
+  -  Implemented common machine learning algorithms using R language, nominated as the best student in class by the professor.
 - Mathematics modeling group member in iGEM 2023 Team "LZU-CHINA"
+  - School of Life Sciences, Lanzhou University (Advisor: Xiangkai Li)
+  - Paris, France, (Mar. 2023 - Present)
+  - Bistable Switch mathematical modeling in oleic acid endogenous system.
