@@ -14,10 +14,10 @@ You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf
 
 Honors and Awards
 ======
-- National Scholarship, (Rank 1/117)   Dec. 2022
-- National Scholarship, (Rank 1/157)   Dec. 2021
-- Chun-Tsung Scholar, (The 25th Annual)  May. 2023
-- Merit Student of Gansu Province, $(0.6 \%)$  Jun. 2022
+- National Scholarship, (Rank 1/117)   (Dec. 2022)
+- National Scholarship, (Rank 1/157)   (Dec. 2021)
+- Chun-Tsung Scholar, (The 25th Annual)  (May. 2023)
+- Merit Student of Gansu Province, $(0.6 \%)$  (Jun. 2022)
 
 Research
 ======
