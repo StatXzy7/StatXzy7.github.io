@@ -37,6 +37,12 @@ Research
   - Lanzhou University, China, (Mar. 2021 - Mar. 2023)
   - Constructed multi-share XVCS with perfect pixel expansion and contrast, providing necessary and sufficient conditions.
 
+
+Academic services
+======
+- Reviewer: IEEE Journal of Biomedical and Health Informatics(IF=7.7)
+- Membership: IEEE Student Member
+
 Experiences
 ======
 - Summer School "Data Science and Machine Learning"
