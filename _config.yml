@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Ziyang Xu"
   avatar           : "banff_small.jpg"
-  bio              : "4th year undergraduate student in Statistics"
-  location         : "London ON - Canada"
+  bio              : "senior undergraduate student in Statistics"
+  location         : "Lanzhou - China"
   employer         :
   pubmed           : # "To be done"
-  googlescholar    : # "To be done"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=3lH_cS4AAAAJ"
   email            : "ziyangxu0205@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Ziyang-Xu-16"
   uri              :
   bitbucket        :
   codepen          :
