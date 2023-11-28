@@ -17,7 +17,7 @@ Honors and Awards
 - National Scholarship, (Rank 1/117)   (Dec. 2022) [Figure](../files/National Scholarship 1.pdf)
 - National Scholarship, (Rank 1/157)   (Dec. 2021) [Figure](../files/National Scholarship 2.pdf)
 - Chun-Tsung Scholar, (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) 
-- Mitacs Globalink Research Intern Scholarship, (2023) (April. 2023)
+- Mitacs Globalink Research Intern Scholarship, (2023) (April. 2023) [Figure](../files/Mitacs all certificate.pdf)
 - Merit Student of Gansu Province, $(0.6 \%)$  (Jun. 2022) [Figure](../files/Merit student of Gansu Province_ZiyangXu.pdf)
 
 Research
