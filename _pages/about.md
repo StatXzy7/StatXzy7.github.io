@@ -14,8 +14,8 @@ You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf
 
 Academic Background
 ======
-- Lanzhou University, B.S. in Statistics (Rank 1/117)   Sept. 2020 - Present
-- Western University, Mitacs Globalink Research Intern   Jul. 2023 - Oct. 2023
+- Lanzhou University, B.S. in Statistics, Sept. 2020 - Present
+- Western University, Mitacs Globalink Research Intern, Jul. 2023 - Oct. 2023
 
 Honors and Awards
 ======
