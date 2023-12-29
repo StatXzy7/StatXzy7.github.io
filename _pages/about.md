@@ -12,6 +12,11 @@ I'm a senior undergraduate student(2020-2024) at School of Mathematics and Stati
 
 You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf).
 
+Academic Background
+======
+- Lanzhou University, B.S. in Statistics (Rank 1/117)   Sept. 2020 - Present
+- Western University, Mitacs Globalink Research Intern   Jul. 2023 - Oct. 2023
+
 Honors and Awards
 ======
 - National Scholarship, (Rank 1/117)   (Dec. 2022) [Figure](../files/National Scholarship 1.pdf)
@@ -24,7 +29,7 @@ Research
 ======
 - Deep Learning for Integrating Multimodal Data for Precision Medicine
   - Mitacs Globalink Research Internship 2023 (Advisor: [Pingzhao Hu](https://phulab.org/))
-  - Western University, Canada, (Jun. 2023 - Present) 
+  - Western University, Canada, (Jan. 2023 - Present) 
   - (Currently working) Developing deep learning algorithms for predicting spatial transcriptomics from histology images.
 - Identification of phosphorylation sites based on pretrained model and Transformer [[PDF]](https://arxiv.org/abs/2308.05115) [[Code]](https://github.com/StatXzy7/PTransIPs)
   - Individual research, (Nov. 2022 - Aug. 2023)
