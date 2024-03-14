@@ -14,7 +14,8 @@ I intend to pursue my Ph.D. degree in Mathematics at The Center for Mathematical
 
 My past research interests lied in Deep Learning, Statistical Machine Learning, Bioinformatics, Medical Image Processing. Currently I'm still finding some interesting scientific or application problems that have a chanced solved by AI to devote myself to them.
 
-You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf). Feel free to reach out if you want to chat or collaborate!
+You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf). 
+Feel free to reach out if you want to chat or collaborate!
 
 Academic Background
 ======
@@ -23,7 +24,7 @@ Academic Background
 
 Honors and Awards(Selected, list by time)
 ======
-- Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [Web](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
+- Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [News](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
 - Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) 
 - Mitacs Globalink Research Intern Scholarship, (2023) (April. 2023) [Figure](../files/Mitacs all certificate.pdf)
 - National Scholarship(国家奖学金), (Rank 1/117)   (Dec. 2022) [Figure](../files/National Scholarship 1.pdf)
@@ -33,9 +34,11 @@ Honors and Awards(Selected, list by time)
 
 Publications
 ======
-- PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings [[PDF]](https://arxiv.org/abs/2308.05115) [[Code]](https://github.com/StatXzy7/PTransIPs)
+- PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings [[PDF]](https://arxiv.org/abs/2308.05115) [[Code]](https://github.com/StatXzy7/PTransIPs). Accepted by IEEE Journal of Biomedical and Health Informatics (J-BHI) (SCI Q1, 中科院一区, IF=7.7)
   - Co-author: [Haitian Zhong](https://jzsawyer.github.io/), [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
-  - Improving deep learning algorithms for the identification of phosphorylation sites, achieving AUROCs of 0.9232 and 0.9660 for identifying phosphorylated S/T and Y sites respectively, the best performance to date.
+  - PTransIPs, a new deep learning framework for the identification of phosphorylation sites. PTransIPs utilizes protein pre-trained language model (PLM) embeddings to achieve SOTA performance, with AUCs of 0.9232 and 0.9660 for S/T and Y sites, respectively. PTransIPs is also a universal framework for all peptide bioactivity tasks.
+<img src="..\_publications\PTransIPs_Graphical Abstract Image.pdf" alt=" " width="100" height="100">
+
 
 Past Research
 ======
