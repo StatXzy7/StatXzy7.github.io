@@ -8,9 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a senior undergraduate student(2020-2024) at School of Mathematics and Statistics, Lanzhou University, majoring Statistics. My research interests lie in Deep Learning, Statistical Machine Learning, Bioinformatics, Medical Image Processing.
+Hi! I’m Ziyang Xu (徐子扬, aka StatXzy7), a final-year (senior) undergraduate student at School of Mathematics and Statistics, Lanzhou University, majoring in Statistics.
 
-You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf).
+I intend to pursue my Ph.D. degree in Mathematics at The Center for Mathematical Artificial Intelligence (CMAI), Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. Tieyong Zeng.
+
+My past research interests lied in Deep Learning, Statistical Machine Learning, Bioinformatics, Medical Image Processing. Currently I'm still finding some interesting scientific or application problems that have a chanced solved by AI to devote myself to them.
+
+You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf). Feel free to reach out if you want to chat or collaborate!
 
 Academic Background
 ======
