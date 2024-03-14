@@ -39,7 +39,6 @@ Publications
    Ziyang Xu†, Haitian Zhong†, Bingrui He, Xueying Wang, Tianchi Lu.  Accepted by IEEE Journal of Biomedical and Health Informatics (J-BHI) (SCI Q1, 中科院一区, IF=7.7)
   - Co-author: [Haitian Zhong](https://jzsawyer.github.io/), [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
   - PTransIPs, a new deep learning framework for the identification of phosphorylation sites. PTransIPs utilizes protein pre-trained language model (PLM) embeddings to achieve SOTA performance, with AUCs of 0.9232 and 0.9660 for S/T and Y sites, respectively. PTransIPs is also a universal framework for all peptide bioactivity tasks.
-<img src="..\_publications\PTransIPs_Graphical Abstract Image.pdf" alt=" " width="100" height="100">
 
 
 Past Research
