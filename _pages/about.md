@@ -25,11 +25,11 @@ Academic Background
 Honors and Awards(Selected, list by time)
 ======
 - Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [News](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
-- Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) 
+- Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) [News](https://xgb.lzu.edu.cn/lzupage/2023/04/19/N20230419105937.html)
 - Mitacs Globalink Research Intern Scholarship, (2023) (April. 2023) [Figure](../files/Mitacs all certificate.pdf)
-- National Scholarship(国家奖学金), (Rank 1/117)   (Dec. 2022) [Figure](../files/National Scholarship 1.pdf)
+- National Scholarship(国家奖学金), (Rank 1/117)   (Dec. 2022) [Figure](../files/National Scholarship 1.pdf) [News](http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202212/t20221227_1036671.html)
 - Merit Student of Gansu Province(甘肃省三好学生), $(0.6 \%)$  (Jun. 2022) [Figure](../files/Merit student of Gansu Province_ZiyangXu.pdf)
-- National Scholarship(国家奖学金), (Rank 1/157)   (Dec. 2021) [Figure](../files/National Scholarship 2.pdf)
+- National Scholarship(国家奖学金), (Rank 1/157)   (Dec. 2021) [Figure](../files/National Scholarship 2.pdf) [News](http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html)
 
 
 Publications
