@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Ziyang Xu (徐子扬, aka StatXzy7), a final-year (senior) undergraduate student at School of Mathematics and Statistics, Lanzhou University, majoring in Statistics.
+Hi! I’m Ziyang Xu (徐子扬, StatXzy7), a final-year (senior) undergraduate student at School of Mathematics and Statistics, Lanzhou University, majoring in Statistics.
 
 I intend to pursue my Ph.D. degree in Mathematics at Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/).
 
