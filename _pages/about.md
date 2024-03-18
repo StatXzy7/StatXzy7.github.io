@@ -34,7 +34,7 @@ Honors and Awards(Selected, list by time)
 
 Publications
 ======
-- PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings[[PDF]](https://arxiv.org/abs/2308.05115) [[Code]](https://github.com/StatXzy7/PTransIPs).
+- PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings[[PDF]](https://ieeexplore.ieee.org/abstract/document/10472595) [[Code]](https://github.com/StatXzy7/PTransIPs).
 
    Ziyang Xu†, Haitian Zhong†, Bingrui He, Xueying Wang, Tianchi Lu.  Accepted by IEEE Journal of Biomedical and Health Informatics (J-BHI) (SCI Q1, 中科院一区, IF=7.7)
   - Co-author: [Haitian Zhong](https://jzsawyer.github.io/), [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
