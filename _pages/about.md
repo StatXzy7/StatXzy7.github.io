@@ -22,7 +22,7 @@ Academic Background
 - Lanzhou University, B.S. in Statistics, Sept. 2020 - Present
 - Western University, Mitacs Globalink Research Intern, Jul. 2023 - Oct. 2023
 
-Honors and Awards(Selected, list by time)
+Honors and Awards(Selected, listed by time)
 ======
 - Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [News](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
 - Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) [News](https://xgb.lzu.edu.cn/lzupage/2023/04/19/N20230419105937.html)
