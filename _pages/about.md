@@ -19,11 +19,14 @@ Feel free to reach out if you want to chat or collaborate!
 
 Academic Background
 ======
-- Lanzhou University, B.S. in Statistics, Sept. 2020 - Present
+- The Chinese University of Hong Kong, Ph.D. in Mathematics Aug.2024 - Present
+- Lanzhou University, B.S. in Statistics, Sept. 2020 - Jun. 2024
 - Western University, Mitacs Globalink Research Intern, Jul. 2023 - Oct. 2023
 
 Honors and Awards(Selected, listed by time)
 ======
+- Brilliant Graduate of Lanzhou University - Academic Advancement Type 2024 (出彩毕业生-学术深造型) (Top 5 from university) (Jun. 2024) [News](https://job.lzu.edu.cn/html/68/article/2024/72443.html)
+- CUHK Vice-Chancellor's PhD Scholarship (March. 2024) 
 - Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [News](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
 - Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) [News](https://xgb.lzu.edu.cn/lzupage/2023/04/19/N20230419105937.html)
 - Mitacs Globalink Research Intern Scholarship, (2023) (April. 2023) [Figure](../files/Mitacs all certificate.pdf) [News](https://www.csc.edu.cn/chuguo/s/2591)
