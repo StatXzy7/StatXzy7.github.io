@@ -21,6 +21,7 @@ Academic Background
 
 - The Chinese University of Hong Kong, Ph.D. in Mathematics, Hong Kong SAR, China, Aug.2024 - Present
 - Lanzhou University, B.S. in Statistics, Lanzhou, China, Sept. 2020 - Jun. 2024
+- High School Affiliated To Nanjing Normal University, Nanjing, China, Sept. 2017 - Jul. 2020
 
 ### Short Visiting / Intern
 
