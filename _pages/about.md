@@ -65,6 +65,8 @@ Academic services
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QUwhfA7E5hbbJECoaXHjBrEzdt9cHqDRrK58A9pJY4s&cl=ffffff&w=a"></script>
+
 <!-- Experiences
 ======
 - Summer School "Data Science and Machine Learning"
