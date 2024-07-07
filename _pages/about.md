@@ -14,16 +14,19 @@ My research interests include AI for Science, Bioinformatics, Medical Image Proc
 You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf).
 Feel free to reach out if you want to chat or collaborate!
 
-# Academic Background
-###
+Academic Background
+===========================================
+
 ### Education
+
 - The Chinese University of Hong Kong, Ph.D. in Mathematics, Hong Kong SAR, China, Aug.2024 - Present
 - Lanzhou University, B.S. in Statistics, Lanzhou, China, Sept. 2020 - Jun. 2024
+
 ### Short Visiting / Intern
+
 - Peking University, BICMR, Summer school "AI for Mathematics", Beijing, China, Jul. 2024 - Aug. 2024
 - Western University, The Schulich School of Medicine & Dentistry, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), London, Canada, Jul. 2023 - Oct. 2023
 - University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), USA, Aug. 2022
-
 
 Honors and Awards(Selected, listed by time)
 ===========================================
@@ -69,7 +72,7 @@ Academic services
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
-<a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+`<a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">``</a>`
 
 <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=QUwhfA7E5hbbJECoaXHjBrEzdt9cHqDRrK58A9pJY4s&cl=ffffff&w=a"></script>
 
