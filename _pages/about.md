@@ -16,7 +16,6 @@ Feel free to reach out if you want to chat or collaborate!
 
 Academic Background
 ===================
-
 ### Education
 - The Chinese University of Hong Kong, Ph.D. in Mathematics, Hong Kong SAR, China, Aug.2024 - Present
 - Lanzhou University, B.S. in Statistics, Lanzhou, China, Sept. 2020 - Jun. 2024
