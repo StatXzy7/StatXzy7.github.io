@@ -57,9 +57,9 @@ Past Research
 
 Short Visiting / Intern
 ======
-- Peking University, BICMR, Summer school "AI for Mathematics", Jul. 2024 - Aug. 2024
-- Western University, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), Jul. 2023 - Oct. 2023
-- University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), Aug. 2022
+- Peking University, BICMR, Summer school "AI for Mathematics", Beijing, China, Jul. 2024 - Aug. 2024
+- Western University, The Schulich School of Medicine & Dentistry, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), London, Canada, Jul. 2023 - Oct. 2023
+- University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), USA, Aug. 2022
 
 
 Academic services
