@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I’m Ziyang Xu (徐子扬, StatXzy7), 2024 Fall Ph.D. student in Mathematics at Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/).
+Hi! I’m Ziyang Xu (徐子扬, StatXzy7), 2024 Fall Ph.D. Student in Mathematics at Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/).
 
 My research interests include AI for Science, Bioinformatics, Medical Image Processing...
 
