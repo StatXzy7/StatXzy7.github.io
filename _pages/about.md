@@ -20,12 +20,6 @@ Academic Background
 - The Chinese University of Hong Kong, Ph.D. in Mathematics, Aug.2024 - Present
 - Lanzhou University, B.S. in Statistics, Sept. 2020 - Jun. 2024
 
-Short Visiting / Intern
-======
-- Peking University, BICMR, Summer school "AI for Mathematics", Jul. 2024 - Aug. 2024
-- Western University, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), Jul. 2023 - Oct. 2023
-- University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), Aug. 2022
-
 Honors and Awards(Selected, listed by time)
 ======
 - Brilliant Graduate of Lanzhou University - Academic Advancement Type 2024 (出彩毕业生-学术深造型) (Top 5 from university) (Jun. 2024) [News](https://job.lzu.edu.cn/html/68/article/2024/72443.html)
@@ -60,6 +54,12 @@ Past Research
   - National Training Program of Innovation and Entrepreneurship for Undergraduates (Advisor: [XingXing Jia](http://mathteacher.lzu.edu.cn/system/TeacherProfileqt/content.jsp?id=58))
   - Lanzhou University, China, (Mar. 2021 - Mar. 2023)
   - Constructed multi-share XVCS with perfect pixel expansion and contrast, providing necessary and sufficient conditions.
+
+Short Visiting / Intern
+======
+- Peking University, BICMR, Summer school "AI for Mathematics", Jul. 2024 - Aug. 2024
+- Western University, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), Jul. 2023 - Oct. 2023
+- University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), Aug. 2022
 
 
 Academic services
