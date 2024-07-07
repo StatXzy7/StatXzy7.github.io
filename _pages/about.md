@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Ziyang Xu (徐子扬, StatXzy7), a final-year (senior) undergraduate student at School of Mathematics and Statistics, Lanzhou University, majoring in Statistics.
+Hi! I’m Ziyang Xu (徐子扬, StatXzy7), 2024 Fall Ph.D. student in Mathematics at Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/).
 
-I intend to pursue my Ph.D. degree in Mathematics at Department of Mathematics, The Chinese University of Hong Kong (CUHK) from Sept. 2024, advised by Prof. [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/).
-
-My research interests used to be Deep Learning, Statistical Machine Learning, Bioinformatics, Medical Image Processing. Currently I'm looking for some interesting scientific or application problems that have a chance to be solved by AI, so that I can devote myself to them.
+My research interests include AI for Science, Bioinformatics, Medical Image Processing...
 
 You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf). 
 Feel free to reach out if you want to chat or collaborate!
@@ -21,7 +19,12 @@ Academic Background
 ======
 - The Chinese University of Hong Kong, Ph.D. in Mathematics, Aug.2024 - Present
 - Lanzhou University, B.S. in Statistics, Sept. 2020 - Jun. 2024
-- Western University, Mitacs Globalink Research Intern, Jul. 2023 - Oct. 2023
+
+Short Visiting / Intern
+======
+- Peking University, BICMR, Summer school "AI for Mathematics", Jul. 2024 - Aug. 2024
+- Western University, Mitacs Globalink Research Intern, (Advisor: [Pingzhao Hu](https://phulab.org/)), Jul. 2023 - Oct. 2023
+- University of Notre Dame, ACMS, Summer School "Data Science and Machine Learning" (Online), Aug. 2022
 
 Honors and Awards(Selected, listed by time)
 ======
@@ -42,7 +45,6 @@ Publications
    Ziyang Xu†, Haitian Zhong†, Bingrui He, Xueying Wang, Tianchi Lu.  Accepted by IEEE Journal of Biomedical and Health Informatics (J-BHI) (SCI Q1, 中科院一区, IF=7.7)
   - Co-author: [Haitian Zhong](https://jzsawyer.github.io/), [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
   - PTransIPs, a new deep learning framework for the identification of phosphorylation sites. PTransIPs utilizes protein pre-trained language model (PLM) embeddings to achieve SOTA performance, with AUCs of 0.9232 and 0.9660 for S/T and Y sites, respectively. PTransIPs is also a universal framework for all peptide bioactivity tasks.
-
 
 Past Research
 ======
