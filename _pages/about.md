@@ -15,7 +15,7 @@ You can find my CV here: [Ziyang Xu's Curriculum Vitae](../files/CV ZiyangXu.pdf
 Feel free to reach out if you want to chat or collaborate!
 
 Academic Background
-===========================================
+===================
 
 ### Education
 
@@ -32,7 +32,7 @@ Academic Background
 Honors and Awards(Selected, listed by time)
 ===========================================
 
-- Brilliant Graduate of Lanzhou University - Academic Advancement Type 2024 (出彩毕业生-学术深造型) (Top 5 from university) (Jun. 2024) [News](https://job.lzu.edu.cn/html/68/article/2024/72443.html)
+- Brilliant Graduate of Lanzhou University - Academic Type 2024 (出彩毕业生-学术深造型) (Top 5 from university) (Jun. 2024) [News](https://job.lzu.edu.cn/html/68/article/2024/72443.html)
 - CUHK Vice-Chancellor's PhD Scholarship (March. 2024)
 - Outstanding Graduate of Gansu Province(甘肃省优秀毕业生) (March. 2024) [News](https://job.lzu.edu.cn/job//html/68/article/2024/70426.html)
 - Chun-Tsung Scholar(䇹政学者), (The 25th Annual)  (May. 2023) [Figure](../files/Chun-Tsung Scholar_ZiyangXu.pdf) [News](https://xgb.lzu.edu.cn/lzupage/2023/04/19/N20230419105937.html)
@@ -73,7 +73,7 @@ Academic services
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
-<a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">``</a>
+`<a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">````</a>`
 
 <div style="width: 300px; height: auto; overflow: hidden;">
     <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=QUwhfA7E5hbbJECoaXHjBrEzdt9cHqDRrK58A9pJY4s&cl=ffffff&w=a"></script>
