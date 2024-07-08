@@ -2,4 +2,8 @@
 
 [Personal Website Link](https://statxzy7.github.io/)
 
-This website is based on a Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+This website is built upon the following templates for academic websites:
+
+    Github repo [RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io), which is distributed under the MIT License.
+
+    Github repo[academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
