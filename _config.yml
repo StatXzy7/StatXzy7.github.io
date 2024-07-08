@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ziyang Xu"
-  avatar           : "banff_small.jpg"
+  avatar           : "images/banff_small.jpg"
   bio              : "Ph.D. Student in CUHK MATH"
   location         : "Hong Kong SAR - China"
   employer         :
