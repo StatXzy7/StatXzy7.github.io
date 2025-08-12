@@ -70,12 +70,10 @@ Feel free to reach out if you want to chat or collaborate!
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
-Google Scholar Statistics <!-- Google Scholar徽章 --> <p>
-  <img 
+Google Scholar Statistics <!-- Google Scholar徽章 --> <img 
     alt="Google Scholar Citations"
     src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/StatXzy7/StatXzy7.github.io/google-scholar-stats/gs_data_shieldsio.json">
-</p>
-
+    
 <!-- 动态Google Scholar数据显示 -->
 <!-- <div id="google-scholar-stats">
   <p><strong>Total Citations: <span id="total_cit">Loading...</span></strong></p>
