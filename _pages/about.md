@@ -70,8 +70,7 @@ Feel free to reach out if you want to chat or collaborate!
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
-# Google Scholar Statistics
-
+Google Scholar Statistics
 <!-- Google Scholar徽章 -->
 <p>
   <img 
@@ -80,10 +79,10 @@ Feel free to reach out if you want to chat or collaborate!
 </p>
 
 <!-- 动态Google Scholar数据显示 -->
-<div id="google-scholar-stats">
+<!-- <div id="google-scholar-stats">
   <p><strong>Total Citations: <span id="total_cit">Loading...</span></strong></p>
   <p><strong>h-index: <span id="h_index">Loading...</span></strong> | <strong>i10-index: <span id="i10_index">Loading...</span></strong></p>
-</div>
+</div> -->
 
 <!-- 动态论文引用显示 -->
 <div id="dynamic-publications">
