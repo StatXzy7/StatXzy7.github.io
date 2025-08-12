@@ -70,86 +70,24 @@ Feel free to reach out if you want to chat or collaborate!
 - Reviewer: IEEE Journal of Biomedical and Health Informatics
 - Membership: IEEE Student Member
 
-<!-- 在合适的位置插入（比如 Publications 上面） -->
-# Google Scholar
+# Google Scholar Statistics
 
-<!-- citations 徽章（自动指向你站点上生成的 Shields JSON） -->
+**Total Citations: <span id="total_cit">Loading...</span>**
+
+<!-- Google Scholar徽章 -->
 <p>
   <img 
-    alt="citations"
-    src="https://img.shields.io/endpoint?url={{ '/results/gs_data_shieldsio.json' | absolute_url }}">
+    alt="Google Scholar Citations"
+    src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/StatXzy7/StatXzy7.github.io/google-scholar-stats/gs_data_shieldsio.json">
 </p>
 
-<div id="gs-summary">
-  <strong>Total citations:</strong> <span id="gs-citedby">Loading…</span><br>
-  <strong>h-index:</strong> <span id="gs-hindex">–</span> &nbsp; 
-  <strong>i10-index:</strong> <span id="gs-i10">–</span>
+<!-- 论文引用数显示 -->
+<div id="paper-citations">
+  <h3>Publication Citations</h3>
+  <ul>
+    <li>PTransIPs: <span class="show_paper_citations" data="paper1">Loading...</span></li>
+  </ul>
 </div>
-
-<div id="gs-recent-pubs-wrap">
-  <h3 style="margin-top:0.8rem;">Recent publications</h3>
-  <ul id="gs-recent-pubs"></ul>
-</div>
-
-<script>
-(async function () {
-  const url = "{{ '/results/gs_data.json' | absolute_url }}";
-  try {
-    const resp = await fetch(url, {cache: 'no-store'});
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-
-    // 顶部指标
-    document.getElementById('gs-citedby').textContent = data.citedby ?? '0';
-    document.getElementById('gs-hindex').textContent  = data.hindex ?? '–';
-    document.getElementById('gs-i10').textContent     = data.i10index ?? '–';
-
-    // publications 是一个以 author_pub_id 为键的对象，转为数组后按年份/被引排序
-    const pubsObj = data.publications || {};
-    const pubs = Object.values(pubsObj);
-
-    // 取近年优先（pub_year desc），同年按 citedby desc；取前 5 篇
-    pubs.sort((a, b) => {
-      const ya = Number(a?.bib?.pub_year) || 0;
-      const yb = Number(b?.bib?.pub_year) || 0;
-      if (yb !== ya) return yb - ya;
-      const ca = Number(a?.num_citations) || 0;
-      const cb = Number(b?.num_citations) || 0;
-      return cb - ca;
-    });
-    const top = pubs.slice(0, 5);
-
-    const ul = document.getElementById('gs-recent-pubs');
-    ul.innerHTML = ''; // 清空占位
-    for (const p of top) {
-      const title = p?.bib?.title || 'Untitled';
-      const year  = p?.bib?.pub_year || '';
-      const cites = p?.num_citations ?? 0;
-      // 优先用 pub_url；没有就用 Google Scholar 的 cluster 链接兜底
-      const url   = p?.pub_url 
-                 || (p?.eprint_url) 
-                 || `https://scholar.google.com/scholar?hl=en&q=${encodeURIComponent(title)}`;
-
-      const li = document.createElement('li');
-      li.style.marginBottom = '0.4rem';
-      li.innerHTML = `
-        <a href="${url}" target="_blank" rel="noopener">${title}</a>
-        ${year ? ` (${year})` : ''} — <em>citations: ${cites}</em>
-      `;
-      ul.appendChild(li);
-    }
-
-    if (top.length === 0) {
-      document.getElementById('gs-recent-pubs-wrap').style.display = 'none';
-    }
-  } catch (err) {
-    console.error('Failed to load gs_data.json:', err);
-    document.getElementById('gs-summary').innerHTML =
-      '<span style="color:#a00;">Failed to load Google Scholar data.</span>';
-    document.getElementById('gs-recent-pubs-wrap').style.display = 'none';
-  }
-})();
-</script>
 
 <a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
 

@@ -8,12 +8,42 @@
 - 支持超时控制，避免长时间挂起
 - 可选的SerpAPI支持，提高稳定性
 - 自动提交结果到GitHub分支
+- 在网页中显示引用数据
 
 ## 环境变量
 
 - `GOOGLE_SCHOLAR_ID`: 你的Google Scholar ID（必需）
 - `SERPAPI_API_KEY`: SerpAPI密钥（可选，但推荐使用）
 - `SCHOLAR_TIMEOUT_SECONDS`: 脚本超时时间，默认600秒（10分钟）
+
+## 在网页中显示引用数据
+
+### 1. 总引用数显示
+在HTML中添加：
+```html
+<span id="total_cit">Loading...</span>
+```
+
+### 2. 论文引用数显示
+在HTML中添加：
+```html
+<span class="show_paper_citations" data="paper_id">Loading...</span>
+```
+
+### 3. 获取正确的paper_id
+运行测试脚本查看数据格式：
+```bash
+cd google_scholar_crawler
+python test_data_format.py
+```
+
+### 4. 示例用法
+在 `_pages/about.md` 中：
+```markdown
+**Total Citations: <span id="total_cit">Loading...</span>**
+
+- PTransIPs: <span class="show_paper_citations" data="实际的paper_id">Loading...</span>
+```
 
 ## 解决超时问题
 
@@ -45,6 +75,7 @@ python main.py
 2. 确认Google Scholar ID正确
 3. 考虑使用代理或VPN
 4. 检查GitHub Actions日志获取详细错误信息
+5. 运行 `python test_data_format.py` 检查数据格式
 
 ## 定时运行
 

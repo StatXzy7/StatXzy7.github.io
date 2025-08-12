@@ -1,19 +1,42 @@
 <script>
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/'
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+        
+        $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
+            // 更新总引用数
+            var totalCitation = data['citedby'] || 0;
+            var totalCitElement = document.getElementById('total_cit');
+            if (totalCitElement) {
+                totalCitElement.innerHTML = totalCitation;
+            }
+            
+            // 更新各论文引用数
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function(element) {
+                var paperId = element.getAttribute('data');
+                if (data['publications'] && data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations'] || 0;
+                    element.innerHTML = '| Citations: ' + numCitations;
+                } else {
+                    element.innerHTML = '| Citations: 0';
+                }
+            });
+        }).fail(function(jqXHR, textStatus, errorThrown) {
+            console.error('Failed to load Google Scholar data:', textStatus, errorThrown);
+            // 显示错误信息
+            var totalCitElement = document.getElementById('total_cit');
+            if (totalCitElement) {
+                totalCitElement.innerHTML = 'Error loading data';
+            }
+            
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function(element) {
+                element.innerHTML = '| Citations: Error';
             });
         });
-    })
+    });
 </script>
