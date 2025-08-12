@@ -8,22 +8,38 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # 设置30分钟超时，避免6小时超时
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
       run: |
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run Google Scholar crawler
+      run: |
+        cd ./google_scholar_crawler
+        python main.py
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}  # 可选的SerpAPI支持
+        SCHOLAR_TIMEOUT_SECONDS: 600  # 10分钟脚本超时
+        
+    - name: Commit and push results
+      if: success()
+      run: |
+        cd ./google_scholar_crawler/results
+        git init
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git add *.json
+        git commit -m "Updated Citation Data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        git push "${remote_repo}" HEAD:google-scholar-stats --force

@@ -1,2 +1,3 @@
 jsonpickle==1.4.2
-scholarly==1.5.1
+scholarly==1.7.11
+requests>=2.25.0
