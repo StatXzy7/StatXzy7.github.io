@@ -8,7 +8,7 @@
 - 支持超时控制，避免长时间挂起
 - 可选的SerpAPI支持，提高稳定性
 - 自动提交结果到GitHub分支
-- 在网页中显示引用数据
+- 动态显示引用数据在网页中
 
 ## 环境变量
 
@@ -18,32 +18,55 @@
 
 ## 在网页中显示引用数据
 
-### 1. 总引用数显示
-在HTML中添加：
-```html
-<span id="total_cit">Loading...</span>
-```
+### 方法1: 动态显示系统（推荐）
 
-### 2. 论文引用数显示
-在HTML中添加：
-```html
-<span class="show_paper_citations" data="paper_id">Loading...</span>
-```
+新的动态显示系统会自动：
+- 按引用数排序论文
+- 显示论文标题、年份和引用数
+- 提供论文链接
+- 自动处理错误情况
 
-### 3. 获取正确的paper_id
-运行测试脚本查看数据格式：
-```bash
-cd google_scholar_crawler
-python test_data_format.py
-```
-
-### 4. 示例用法
-在 `_pages/about.md` 中：
+在 `_pages/about.md` 中添加：
 ```markdown
-**Total Citations: <span id="total_cit">Loading...</span>**
+# Google Scholar Statistics
 
-- PTransIPs: <span class="show_paper_citations" data="实际的paper_id">Loading...</span>
+<!-- Google Scholar徽章 -->
+<p>
+  <img 
+    alt="Google Scholar Citations"
+    src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/StatXzy7/StatXzy7.github.io/google-scholar-stats/gs_data_shieldsio.json">
+</p>
+
+<!-- 动态Google Scholar数据显示 -->
+<div id="google-scholar-stats">
+  <p><strong>Total Citations: <span id="total_cit">Loading...</span></strong></p>
+  <p><strong>h-index: <span id="h_index">Loading...</span></strong> | <strong>i10-index: <span id="i10_index">Loading...</span></strong></p>
+</div>
+
+<!-- 动态论文引用显示 -->
+<div id="dynamic-publications">
+  <h3>Publications with Citations</h3>
+  <div id="publications-list">
+    <!-- 这里会被JavaScript动态填充 -->
+  </div>
+</div>
 ```
+
+### 方法2: 手动指定论文（传统方式）
+
+如果需要手动指定特定论文：
+
+1. **获取正确的paper_id**
+   ```bash
+   cd google_scholar_crawler
+   python test_data_format.py
+   ```
+
+2. **在HTML中添加**
+   ```html
+   <span id="total_cit">Loading...</span>
+   <span class="show_paper_citations" data="实际的paper_id">Loading...</span>
+   ```
 
 ## 解决超时问题
 

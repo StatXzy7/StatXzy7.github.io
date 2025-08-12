@@ -1,4 +1,7 @@
+<!-- Google Scholar数据加载脚本 -->
+<!-- 注意：主要的显示逻辑现在在about.md中，这里只提供基本的兼容性支持 -->
 <script>
+    // 保留原有的元素更新逻辑，以防其他地方还在使用
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/'
@@ -6,15 +9,16 @@
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/'
         {% endif %}
         
+        // 只更新原有的元素，不创建新的
         $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
-            // 更新总引用数
+            // 更新总引用数（如果元素存在）
             var totalCitation = data['citedby'] || 0;
             var totalCitElement = document.getElementById('total_cit');
             if (totalCitElement) {
                 totalCitElement.innerHTML = totalCitation;
             }
             
-            // 更新各论文引用数
+            // 更新各论文引用数（如果元素存在）
             var citationEles = document.getElementsByClassName('show_paper_citations');
             Array.prototype.forEach.call(citationEles, function(element) {
                 var paperId = element.getAttribute('data');
@@ -27,16 +31,6 @@
             });
         }).fail(function(jqXHR, textStatus, errorThrown) {
             console.error('Failed to load Google Scholar data:', textStatus, errorThrown);
-            // 显示错误信息
-            var totalCitElement = document.getElementById('total_cit');
-            if (totalCitElement) {
-                totalCitElement.innerHTML = 'Error loading data';
-            }
-            
-            var citationEles = document.getElementsByClassName('show_paper_citations');
-            Array.prototype.forEach.call(citationEles, function(element) {
-                element.innerHTML = '| Citations: Error';
-            });
         });
     });
 </script>

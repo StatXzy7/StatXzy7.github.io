@@ -72,8 +72,6 @@ Feel free to reach out if you want to chat or collaborate!
 
 # Google Scholar Statistics
 
-**Total Citations: <span id="total_cit">Loading...</span>**
-
 <!-- Google Scholar徽章 -->
 <p>
   <img 
@@ -81,13 +79,80 @@ Feel free to reach out if you want to chat or collaborate!
     src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/StatXzy7/StatXzy7.github.io/google-scholar-stats/gs_data_shieldsio.json">
 </p>
 
-<!-- 论文引用数显示 -->
-<div id="paper-citations">
-  <h3>Publication Citations</h3>
-  <ul>
-    <li>PTransIPs: <span class="show_paper_citations" data="paper1">Loading...</span></li>
-  </ul>
+<!-- 动态Google Scholar数据显示 -->
+<div id="google-scholar-stats">
+  <p><strong>Total Citations: <span id="total_cit">Loading...</span></strong></p>
+  <p><strong>h-index: <span id="h_index">Loading...</span></strong> | <strong>i10-index: <span id="i10_index">Loading...</span></strong></p>
 </div>
+
+<!-- 动态论文引用显示 -->
+<div id="dynamic-publications">
+  <h3>Publications with Citations</h3>
+  <div id="publications-list">
+    <!-- 这里会被JavaScript动态填充 -->
+  </div>
+</div>
+
+<script>
+// 动态加载Google Scholar数据
+(function() {
+    const gsDataUrl = 'https://raw.githubusercontent.com/StatXzy7/StatXzy7.github.io/google-scholar-stats/gs_data.json';
+    
+    fetch(gsDataUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // 更新总引用数和指数
+            document.getElementById('total_cit').textContent = data.citedby || 0;
+            document.getElementById('h_index').textContent = data.hindex || 0;
+            document.getElementById('i10_index').textContent = data.i10index || 0;
+            
+            // 动态生成论文列表
+            const publicationsList = document.getElementById('publications-list');
+            const publications = data.publications || {};
+            
+            if (Object.keys(publications).length === 0) {
+                publicationsList.innerHTML = '<p>No publications found.</p>';
+                return;
+            }
+            
+            // 按引用数排序
+            const sortedPubs = Object.entries(publications)
+                .map(([id, pub]) => ({
+                    id,
+                    title: pub.bib?.title || 'Unknown Title',
+                    year: pub.bib?.pub_year || '',
+                    citations: pub.num_citations || 0,
+                    url: pub.pub_url || pub.eprint_url || `https://scholar.google.com/scholar?hl=en&q=${encodeURIComponent(pub.bib?.title || '')}`
+                }))
+                .sort((a, b) => b.citations - a.citations);
+            
+            let html = '<ul>';
+            sortedPubs.forEach(pub => {
+                html += `
+                    <li>
+                        <a href="${pub.url}" target="_blank" rel="noopener">${pub.title}</a>
+                        ${pub.year ? ` (${pub.year})` : ''}
+                        <span style="color: #666;">— Citations: ${pub.citations}</span>
+                    </li>
+                `;
+            });
+            html += '</ul>';
+            
+            publicationsList.innerHTML = html;
+        })
+        .catch(error => {
+            console.error('Failed to load Google Scholar data:', error);
+            document.getElementById('google-scholar-stats').innerHTML = 
+                '<p style="color: #a00;">Failed to load Google Scholar data. Please try again later.</p>';
+            document.getElementById('dynamic-publications').style.display = 'none';
+        });
+})();
+</script>
 
 <a href="https://info.flagcounter.com/aBrJ"><img src="https://s01.flagcounter.com/count2/aBrJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_20/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
 
