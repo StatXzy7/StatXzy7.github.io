@@ -1,13 +1,14 @@
-name: Get Citation Data
+name: Get Citation Data (Manual)
 
 on: 
+ workflow_dispatch:  # 手动触发
  schedule:
-  - cron:  '0 8 * * 1'  # 每周一上午8点运行
+  - cron:  '0 8 1 * *'  # 每月1号上午8点运行（备用）
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # 设置30分钟超时，避免6小时超时
+    timeout-minutes: 30
     steps:
     - uses: actions/checkout@v4
     
@@ -28,8 +29,8 @@ jobs:
         python main.py
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}  # 可选的SerpAPI支持
-        SCHOLAR_TIMEOUT_SECONDS: 600  # 10分钟脚本超时
+        SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        SCHOLAR_TIMEOUT_SECONDS: 600
         
     - name: Commit and push results
       if: success()
@@ -40,5 +41,5 @@ jobs:
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
-        git commit -m "Updated Citation Data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        git commit -m "Manual Update Citation Data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
         git push "${remote_repo}" HEAD:google-scholar-stats --force

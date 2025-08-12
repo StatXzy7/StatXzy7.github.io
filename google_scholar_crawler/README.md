@@ -10,6 +10,18 @@
 - 自动提交结果到GitHub分支
 - 动态显示引用数据在网页中
 
+## 运行频率
+
+### 自动运行
+- **每周一上午8点** - 自动更新引用数据
+- **每月1号上午8点** - 备用更新（手动触发工作流）
+
+### 手动触发
+如果需要立即更新数据，可以手动触发：
+1. 进入GitHub仓库的Actions页面
+2. 选择"Get Citation Data (Manual)"工作流
+3. 点击"Run workflow"按钮
+
 ## 环境变量
 
 - `GOOGLE_SCHOLAR_ID`: 你的Google Scholar ID（必需）
@@ -100,6 +112,11 @@ python main.py
 4. 检查GitHub Actions日志获取详细错误信息
 5. 运行 `python test_data_format.py` 检查数据格式
 
-## 定时运行
+## 频率调整说明
 
-当前设置为每天上午8点运行。可以在`.github/workflows/google_scholar_crawler.yaml`中修改cron表达式。
+为了减少失败邮件，已将运行频率从：
+- **每天运行** → **每周一运行**
+- **移除page_build触发** → 避免每次提交都触发
+- **添加手动触发选项** → 需要时可立即更新
+
+这样可以大大减少失败邮件的频率，同时保持数据的相对新鲜度。
