@@ -2,7 +2,7 @@
 
 ## 💻 Large Language Models
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='images/react.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='/images/react.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [**REACT**: **R**epresentation **E**xtraction **A**nd **C**ontrollable **T**uning to Overcome Overfitting in LLM Knowledge Editing](https://aclanthology.org/2025.emnlp-main.860/) \\
@@ -15,13 +15,13 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='images/biologyinstructions.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='/images/biologyinstructions.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [Biology-Instructions: A Dataset and Benchmark for Multi-Omics Sequence Understanding Capability of Large Language Models](https://aclanthology.org/2025.findings-emnlp.978/) \\
-[Haonan He]{https://scholar.google.com/citations?user=6YRQTlQAAAAJ&hl=zh-CN}`<sup>`&dagger;`</sup>`, Yuchen Ren`<sup>`&dagger;`</sup>`, Yining Tang`<sup>`&dagger;`</sup>`, **Ziyang Xu**`<sup>`&dagger;`</sup>`, Junxian Li, Minghao Yang, Di Zhang, Yuan Dong, Tao Chen, Shufei Zhang, Yuqiang Li, Nanqing Dong, Wanli Ouyang, Dongzhan Zhou, Peng Ye
+[Haonan He](https://scholar.google.com/citations?user=6YRQTlQAAAAJ&hl=zh-CN)<sup>&dagger;</sup>, Yuchen Ren<sup>&dagger;</sup>, Yining Tang<sup>&dagger;</sup>, **Ziyang Xu**<sup>&dagger;</sup>, Junxian Li, Minghao Yang, Di Zhang, Yuan Dong, Tao Chen, Shufei Zhang, Yuqiang Li, Nanqing Dong, Wanli Ouyang, Dongzhan Zhou, Peng Ye
 
-- **Abstract**: Large language models (LLMs) have shown remarkable capabilities in general domains, but their application to multi-omics biology remains underexplored. To address this gap, we introduce Biology-Instructions, the first large-scale instruction-tuning dataset for multi-omics biological sequences, including DNA, RNA, proteins, and multi-molecules. This dataset bridges LLMs and complex biological sequence-related tasks, enhancing their versatility and reasoning while maintaining conversational fluency. We also highlight significant limitations of current state-of-the-art LLMs on multi-omics tasks without specialized training. To overcome this, we propose ChatMultiOmics, a strong baseline with a novel three-stage training pipeline, demonstrating superior biological understanding through Biology-Instructions. Both resources are publicly available, paving the way for better integration of LLMs in multi-omics analysis. The Biology-Instructions is publicly available at: https://github.com/hhnqqq/Biology-Instructions.
+- **Abstract**: Large language models (LLMs) have shown remarkable capabilities in general domains, but their application to multi-omics biology remains underexplored. To address this gap, we introduce Biology-Instructions, the first large-scale instruction-tuning dataset for multi-omics biological sequences, including DNA, RNA, proteins, and multi-molecules. This dataset bridges LLMs and complex biological sequence-related tasks, enhancing their versatility and reasoning while maintaining conversational fluency. We also highlight significant limitations of current state-of-the-art LLMs on multi-omics tasks without specialized training. To overcome this, we propose ChatMultiOmics, a strong baseline with a novel three-stage training pipeline, demonstrating superior biological understanding through Biology-Instructions. Both resources are publicly available, paving the way for better integration of LLMs in multi-omics analysis. The Biology-Instructions is publicly available at: [https://github.com/hhnqqq/Biology-Instructions](https://github.com/hhnqqq/Biology-Instructions).
 - **Codes**: [![](https://img.shields.io/github/stars/hhnqqq/Biology-Instructions?style=social&label=Biology-Instructions)](https://github.com/hhnqqq/Biology-Instructions)
 
 </div>
@@ -31,11 +31,11 @@
 
 ## 🧬 AI for Science
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE J-BHI</div><img src='images/ptransips.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE J-BHI</div><img src='/images/ptransips.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings](https://ieeexplore.ieee.org/abstract/document/10472595/) \\
-**Ziyang Xu** `<sup>`&dagger;`</sup>`, [Haitian Zhong](https://jzsawyer.github.io/) `<sup>`&dagger;`</sup>`, Bingrui He, Xueying Wang, [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
+**Ziyang Xu**<sup>&dagger;</sup>, [Haitian Zhong](https://jzsawyer.github.io/)<sup>&dagger;</sup>, Bingrui He, Xueying Wang, [Tianchi Lu](https://www.researchgate.net/profile/Tianchi-Lu-3)
 
 - **Work**: We present PTransIPs, **a new deep learning framework for the identification of phosphorylation sites** in host cells infected with SARS-CoV-2. It utilizes protein pre-trained language model (PLM) embeddings and transformer structure to make the final prediction, with transductive information maximization (TIM) loss to better evaluate the error. PTransIPs is also a universal framework for all peptide bioactivity tasks.
 - **Performance**: After comparing PTransIPs with five existing phosphorylation site prediction tools, we notice it achieves **the best performance in all five model evaluation metrics (ACC, SEN, SPEC, MCC, AUC) for both S/T and Y sites**.

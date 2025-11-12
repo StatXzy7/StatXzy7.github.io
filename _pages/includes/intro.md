@@ -2,6 +2,6 @@ Hi! I'm Ziyang Xu (徐子扬, StatXzy7), Ph.D. Student in Mathematics at Departm
 
 My research interests include Large Language Models and Image Processing...
 
-You can find my CV here: [Ziyang Xu's Curriculum Vitae](../../files/CV ZiyangXu.pdf).
+You can find my CV here: [Ziyang Xu's Curriculum Vitae](/files/CV ZiyangXu.pdf).
 
 Feel free to reach out if you want to chat or collaborate!
