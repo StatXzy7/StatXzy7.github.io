@@ -22,7 +22,7 @@
 [Haonan He](https://scholar.google.com/citations?user=6YRQTlQAAAAJ&hl=zh-CN)<sup>&dagger;</sup>, Yuchen Ren<sup>&dagger;</sup>, Yining Tang<sup>&dagger;</sup>, **Ziyang Xu**<sup>&dagger;</sup>, Junxian Li, Minghao Yang, Di Zhang, Dong Yuan, Tao Chen, Shufei Zhang, Yuqiang Li, Nanqing Dong, Wanli Ouyang, Dongzhan Zhou, Peng Ye
 
 - **Abstract**: Large language models (LLMs) have shown remarkable capabilities in general domains, but their application to multi-omics biology remains underexplored. To address this gap, we introduce Biology-Instructions, the first large-scale instruction-tuning dataset for multi-omics biological sequences, including DNA, RNA, proteins, and multi-molecules. This dataset bridges LLMs and complex biological sequence-related tasks, enhancing their versatility and reasoning while maintaining conversational fluency. We also highlight significant limitations of current state-of-the-art LLMs on multi-omics tasks without specialized training. To overcome this, we propose ChatMultiOmics, a strong baseline with a novel three-stage training pipeline, demonstrating superior biological understanding through Biology-Instructions. Both resources are publicly available, paving the way for better integration of LLMs in multi-omics analysis. The Biology-Instructions is publicly available at: [https://github.com/hhnqqq/Biology-Instructions](https://github.com/hhnqqq/Biology-Instructions).
-- **Codes**: [![](https://img.shields.io/github/stars/hhnqqq/Biology-Instructions?style=social&label=Biology-Instructions)](https://github.com/hhnqqq/Biology-Instructions)
+- **Codes**: [![](https://img.shields.io/badge/Code-Biology--Instructions-181717?logo=github)](https://github.com/hhnqqq/Biology-Instructions)
 
 </div>
 </div>
@@ -41,7 +41,7 @@
 - **Work**: We developed **SFibAI**, an end-to-end deep learning framework for fine-grained fibrosis grading from B-mode ultrasound, trained on a large-scale multi-center dataset of 167,702 images with 36 discrete fibrosis stages.
 - **Performance**: Designed a hybrid KL/MSE/boundary-sensitive loss, achieving 93.9% accuracy within ±0.5 stages and MAE 0.116 on 16,811 independent test images.
 - **Deployment**: Built a Windows/Android SDK with average per-image latency below 400 ms.
-- **Codes**: [![](https://img.shields.io/github/stars/StatXzy7/SFibAI?style=social&label=SFibAI)](https://github.com/StatXzy7/SFibAI)
+- **Codes**: [![](https://img.shields.io/badge/Code-SFibAI-181717?logo=github)](https://github.com/StatXzy7/SFibAI)
 
 </div>
 </div>
@@ -57,7 +57,7 @@
 - **Work**: We present PTransIPs, **a new deep learning framework for the identification of phosphorylation sites** in host cells infected with SARS-CoV-2. It utilizes protein pre-trained language model (PLM) embeddings and transformer structure to make the final prediction, with transductive information maximization (TIM) loss to better evaluate the error. PTransIPs is also a universal framework for all peptide bioactivity tasks.
 - **Performance**: After comparing PTransIPs with five existing phosphorylation site prediction tools, we notice it achieves **the best performance in all five model evaluation metrics (ACC, SEN, SPEC, MCC, AUC) for both S/T and Y sites**.
 - **Impact**: We hope that PTransIPs will aid in deepening the understanding of SARS-CoV-2 phosphorylation sites and look forward to enhancing PTransIPs in the future to become a more powerful tool for the scientific community.
-- **Codes**: [![](https://img.shields.io/github/stars/StatXzy7/PTransIPs?style=social&label=PTransIPs)](https://github.com/StatXzy7/PTransIPs)
+- **Codes**: [![](https://img.shields.io/badge/Code-PTransIPs-181717?logo=github)](https://github.com/StatXzy7/PTransIPs)
 
 </div>
 </div>
