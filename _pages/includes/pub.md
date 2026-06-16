@@ -2,7 +2,7 @@
 
 ## 💻 Large Language Models
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='/images/react.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025 Main``</div><img src='/images/react.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [**REACT**: **R**epresentation **E**xtraction **A**nd **C**ontrollable **T**uning to Overcome Overfitting in LLM Knowledge Editing](https://aclanthology.org/2025.emnlp-main.860/) \\
@@ -15,11 +15,11 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='/images/biologyinstructions.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025 Findings``</div><img src='/images/biologyinstructions.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [Biology-Instructions: A Dataset and Benchmark for Multi-Omics Sequence Understanding Capability of Large Language Models](https://aclanthology.org/2025.findings-emnlp.978/) \\
-[Haonan He](https://scholar.google.com/citations?user=6YRQTlQAAAAJ&hl=zh-CN)<sup>&dagger;</sup>, Yuchen Ren<sup>&dagger;</sup>, Yining Tang<sup>&dagger;</sup>, **Ziyang Xu**<sup>&dagger;</sup>, Junxian Li, Minghao Yang, Di Zhang, Yuan Dong, Tao Chen, Shufei Zhang, Yuqiang Li, Nanqing Dong, Wanli Ouyang, Dongzhan Zhou, Peng Ye
+[Haonan He](https://scholar.google.com/citations?user=6YRQTlQAAAAJ&hl=zh-CN)<sup>&dagger;</sup>, Yuchen Ren<sup>&dagger;</sup>, Yining Tang<sup>&dagger;</sup>, **Ziyang Xu**<sup>&dagger;</sup>, Junxian Li, Minghao Yang, Di Zhang, Dong Yuan, Tao Chen, Shufei Zhang, Yuqiang Li, Nanqing Dong, Wanli Ouyang, Dongzhan Zhou, Peng Ye
 
 - **Abstract**: Large language models (LLMs) have shown remarkable capabilities in general domains, but their application to multi-omics biology remains underexplored. To address this gap, we introduce Biology-Instructions, the first large-scale instruction-tuning dataset for multi-omics biological sequences, including DNA, RNA, proteins, and multi-molecules. This dataset bridges LLMs and complex biological sequence-related tasks, enhancing their versatility and reasoning while maintaining conversational fluency. We also highlight significant limitations of current state-of-the-art LLMs on multi-omics tasks without specialized training. To overcome this, we propose ChatMultiOmics, a strong baseline with a novel three-stage training pipeline, demonstrating superior biological understanding through Biology-Instructions. Both resources are publicly available, paving the way for better integration of LLMs in multi-omics analysis. The Biology-Instructions is publicly available at: [https://github.com/hhnqqq/Biology-Instructions](https://github.com/hhnqqq/Biology-Instructions).
 - **Codes**: [![](https://img.shields.io/github/stars/hhnqqq/Biology-Instructions?style=social&label=Biology-Instructions)](https://github.com/hhnqqq/Biology-Instructions)
@@ -30,6 +30,23 @@
 
 
 ## 🧬 AI for Science
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications</div><img src='/images/sfibai-flowchart.png' alt="SFibAI flowchart" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Deep Learning for Precision Grading of Schistosoma Japonicum-induced Liver Fibrosis in Ultrasound Images](https://github.com/StatXzy7/SFibAI) \\
+**Ziyang Xu**, Jianfeng Zhang, Tingting Wu, Haiyong Hua, Kun Yang, [Tieyong Zeng](https://www.math.cuhk.edu.hk/~zeng/)
+
+- **Status**: Accepted by **Nature Communications**.
+- **Work**: We developed **SFibAI**, an end-to-end deep learning framework for fine-grained fibrosis grading from B-mode ultrasound, trained on a large-scale multi-center dataset of 167,702 images with 36 discrete fibrosis stages.
+- **Performance**: Designed a hybrid KL/MSE/boundary-sensitive loss, achieving 93.9% accuracy within ±0.5 stages and MAE 0.116 on 16,811 independent test images.
+- **Deployment**: Built a Windows/Android SDK with average per-image latency below 400 ms.
+- **Codes**: [![](https://img.shields.io/github/stars/StatXzy7/SFibAI?style=social&label=SFibAI)](https://github.com/StatXzy7/SFibAI)
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE J-BHI</div><img src='/images/ptransips.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

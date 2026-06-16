@@ -25,5 +25,5 @@ redirect_from:
 </div>
 
 <div style="text-align: center; font-size: small;">
-  Last updated on 2025/11/12
+  Last updated on 2026/06/16
 </div>
