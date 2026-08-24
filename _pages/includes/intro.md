@@ -2,6 +2,6 @@ Hi! I'm Ziyang Xu (徐子扬, StatXzy7), a Ph.D. student in Mathematics at the D
 
 My recent research interests include reinforcement learning for LLMs, on-policy distillation, and image processing. I mainly work with PyTorch, Transformers, LoRA/SFT, distributed training, and on-device AI deployment.
 
-You can find my CV here: [Ziyang Xu's Curriculum Vitae](/files/CV ZiyangXu.pdf).
+You can find my CV here: [Ziyang Xu's Curriculum Vitae](/files/cv_ziyangxu.pdf).
 
 Feel free to reach out at [zyxu@math.cuhk.edu.hk](mailto:zyxu@math.cuhk.edu.hk) or [ziyangxu0205@gmail.com](mailto:ziyangxu0205@gmail.com) if you want to chat or collaborate!

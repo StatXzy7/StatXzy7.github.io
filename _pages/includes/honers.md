@@ -1,3 +1,5 @@
+<span class='anchor' id='honors'></span>
+
 # 🎖️ Honors and Awards
 - *2024.06* Brilliant Graduate of Lanzhou University - Academic Type 2024 (出彩毕业生-学术深造型) (Top 5 from university) [News](https://job.lzu.edu.cn/html/68/article/2024/72443.html)
 - *2024.03* CUHK Vice-Chancellor's PhD Scholarship
