@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body class="homepage">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="home-header">
+      <div class="home-header-inner">
+        <a class="home-brand" href="#about-me">Ziyang Xu<span aria-hidden="true">.</span></a>
+        <nav class="home-nav" aria-label="Main navigation">
+          <a href="#publications">Research</a>
+          <a href="#news">News</a>
+          <a href="#internships">Experience</a>
+          <a href="#educations">Education</a>
+          <a href="#teaching">Teaching</a>
+          <a href="{{ '/files/cv_ziyangxu.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="home-main" tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="home-footer">
+      <div class="home-footer-inner">
+        <p>© {{ site.time | date: '%Y' }} Ziyang Xu <span aria-hidden="true">·</span> Updated {{ site.time | date: '%B %Y' }}</p>
+        <a href="mailto:ziyangxu0205@gmail.com">ziyangxu0205@gmail.com</a>
+        <a href="#honors">Honors &amp; awards</a>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/homepage.js' | relative_url }}" defer></script>
+    {% if site.google_analytics_id %}{% include analytics.html %}{% endif %}
+  </body>
+</html>

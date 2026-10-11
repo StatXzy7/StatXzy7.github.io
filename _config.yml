@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziyang Xu's Home Page"
-description              : # "Ph.D. Student in CUHK MATH"
+description              : "Ziyang Xu is a Mathematics Ph.D. student at CUHK working on reinforcement learning for LLMs, on-policy distillation, and image processing."
 repository               : "StatXzy7/StatXzy7.github.io"
 google_scholar_stats_use_cdn : true
 
