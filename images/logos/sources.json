@@ -1,0 +1,90 @@
+[
+  {
+    "institution": "Huawei",
+    "file": "huawei.png",
+    "source_page": "https://www.huawei.com/en/",
+    "source_asset": "https://www.huawei.com/-/media/hcomponent-header/1.0.1.20260908162100/component/img/huawei_logo.png",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      266,
+      60
+    ],
+    "sha256": "492e58a2680a4f4607185e21d55183f0d2ac976b8f4737512a495672d31e4070",
+    "note": "Official website header logo"
+  },
+  {
+    "institution": "Peking University",
+    "file": "peking-university.png",
+    "source_page": "https://english.pku.edu.cn/",
+    "source_asset": "https://english.pku.edu.cn/Uploads/Bden/Picture/2020/11/25/s5fbdbf048bc00.png",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      1702,
+      479
+    ],
+    "sha256": "6383b3d434d79b6a5cd3ec47ad753b1322540a486e5f025969f977d9ce4e5f96",
+    "note": "Official website positive logo"
+  },
+  {
+    "institution": "Western University",
+    "file": "western-university.svg",
+    "source_page": "https://brand.westernu.ca/logo-and-standards/western.html",
+    "source_asset": "https://www.uwo.ca/web_standards/2025-global/assets/img/logos/d-western-logo.svg",
+    "retrieved_on": "2026-10-11",
+    "dimensions": "0 0 272 65",
+    "sha256": "e26c89cad2b6da51579f984711485e3bb160d9e0fa035c9ca9f43d0b6fe9f083",
+    "note": "Official Canadian university website header logo"
+  },
+  {
+    "institution": "The Chinese University of Hong Kong",
+    "file": "cuhk.png",
+    "source_page": "https://www.cuhk.edu.hk/english/",
+    "source_asset": "https://www.cuhk.edu.hk/english/images/fav-icons/android-chrome-192x192.png",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      192,
+      192
+    ],
+    "sha256": "bdd31ea79fdfdac2911743a6deca1166c58a065af82822d6496c5d5474972422",
+    "note": "Official university emblem"
+  },
+  {
+    "institution": "Lanzhou University",
+    "file": "lanzhou-university.png",
+    "source_page": "https://fx.xwapp.moe.gov.cn/article/202101/5ff437babc38d8152cf2691d.html",
+    "source_asset": "https://education202005.oss-cn-beijing.aliyuncs.com/images/account/lanzhoudaxue.png",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "sha256": "2af44b7ee7f338d1a9c99470cda0660a922c430a085bbf2253a48e7d2327d835",
+    "note": "University account emblem hosted by the Ministry of Education news platform; matches the 1909 emblem in the university charter"
+  },
+  {
+    "institution": "High School Affiliated to Nanjing Normal University",
+    "file": "nanjing-normal-university-high-school.jpg",
+    "source_page": "https://kknews.cc/zh-sg/education/xvrxeao.html",
+    "source_asset": "https://i2.kknews.cc/bDMJCKrnxnLNFEXQLAtmyCTIvtwEyRzsoqKMKLI/0.jpg",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      579,
+      581
+    ],
+    "sha256": "ac558bd1a2e81d031248551e56d9d08280fd0e9dd11cb9a6ecf480613ece8936",
+    "note": "Unwatermarked emblem from a school-emblem article; official school website was unavailable"
+  },
+  {
+    "institution": "ModelBest",
+    "file": "modelbest.png",
+    "source_page": "https://www.shixiseng.com/com/com_oi6ccqyisa6o",
+    "source_asset": "https://hr-resources.shixiseng.com/20230323/f9da6c81b5cb449bab4d9cf08266af32.png",
+    "retrieved_on": "2026-10-11",
+    "dimensions": [
+      400,
+      400
+    ],
+    "sha256": "e513f6ac28cb45679d3f30f6f15e7fd988b8bbcb420a5535e4cfe8cac4b4b213",
+    "note": "ModelBest symbol-only corporate logo from the company recruiting profile; original downloaded image, without text"
+  }
+]

@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "Ziyang Xu"
-excerpt: "Mathematics Ph.D. student at CUHK. Research in reinforcement learning for LLMs, on-policy distillation, and image processing."
+excerpt: "Mathematics Ph.D. student at CUHK. Research interests: AI for Science, AI for AI, and large language models (LLMs)."
 author_profile: false
 redirect_from: 
   - /about/
