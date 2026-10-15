@@ -8,7 +8,7 @@
           <div><h3>Research Intern</h3><p class="entry-company"><a href="https://www.huawei.com/en/">Huawei Hong Kong Research Institute</a> · Internship</p><p class="entry-role">Theory Lab · Hong Kong</p></div>
           <img class="entry-logo entry-logo-wordmark" src="{{ '/images/logos/huawei.png' | relative_url }}" alt="Huawei logo" width="266" height="60" loading="lazy" decoding="async">
         </div>
-        <p>Mathematical-Model-Based Image Algorithm Research, with <a href="https://www.math.cuhk.edu.hk/~zeng/">Prof. Tieyong Zeng</a>.</p>
+        <p>Mathematical-Model-Based Image Algorithm Research, with <a href="https://scholar.google.com/citations?user=2yyTgRwAAAAJ&amp;hl=zh-CN">Prof. Tieyong Zeng</a>.</p>
         <details class="entry-details"><summary>Project details</summary><p>Developed an image restoration pipeline for information-missing artifacts caused by short-exposure sampling of screen refresh cycles in mobile photography, combining Sa2VA-8B language-guided screen/person segmentation, luminance-jump maps for banding-region detection, structure-aware mask refinement, and long-short exposure frame registration and fusion.</p></details>
       </div>
     </article>

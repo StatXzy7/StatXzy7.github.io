@@ -10,7 +10,7 @@
   </aside>
   <div class="hero-details">
     <p class="hero-intro">Hi, I'm Ziyang. My research interests are <strong>AI for Science</strong>, <strong>AI for AI</strong>, and <strong>LLMs</strong>.</p>
-    <p class="hero-advisors">At CUHK since August 2024, advised by <a href="https://www.math.cuhk.edu.hk/~zeng/">Prof. Tieyong Zeng</a> and <a href="https://www.math.cuhk.edu.hk/~lliu/">Prof. Liu Liu</a>.</p>
+    <p class="hero-advisors">At CUHK since August 2024, advised by <a href="https://scholar.google.com/citations?user=2yyTgRwAAAAJ&amp;hl=zh-CN">Prof. Tieyong Zeng</a> and <a href="https://www.math.cuhk.edu.hk/~lliu/">Prof. Liu Liu</a>.</p>
     <div class="hero-actions" aria-label="Contact and curriculum vitae">
       <a class="home-button home-button-primary" href="{{ '/files/cv_ziyangxu.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View curriculum vitae"><span class="button-label-long">Curriculum vitae</span><span class="button-label-short">CV</span> <span aria-hidden="true">↗</span></a>
       <a class="home-button" href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>

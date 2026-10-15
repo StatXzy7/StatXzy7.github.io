@@ -18,7 +18,7 @@
     <div class="paper-content">
       <p class="paper-meta"><span class="paper-venue">Nature Communications · 2026</span><span class="paper-category">Medical imaging</span></p>
       <h3><a href="https://www.nature.com/articles/s41467-026-76287-9">Deep Learning for Precision Grading of Schistosoma Japonicum-induced Liver Fibrosis in Ultrasound Images</a></h3>
-      <p class="paper-authors"><strong>Ziyang Xu</strong>, Jianfeng Zhang, Tingting Wu, Haiyong Hua, Kun Yang, <a href="https://www.math.cuhk.edu.hk/~zeng/">Tieyong Zeng</a></p>
+      <p class="paper-authors"><strong>Ziyang Xu</strong>, Jianfeng Zhang, Tingting Wu, Haiyong Hua, Kun Yang, <a href="https://scholar.google.com/citations?user=2yyTgRwAAAAJ&amp;hl=zh-CN">Tieyong Zeng</a></p>
       <p class="paper-description">SFibAI grades liver fibrosis from ultrasound, trained on 167,702 images across 36 stages. The framework includes a Windows/Android SDK.</p>
       <div class="paper-links"><a href="https://www.nature.com/articles/s41467-026-76287-9">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/StatXzy7/SFibAI">Code <span aria-hidden="true">↗</span></a></div>
       <details class="paper-details" data-abstract-source="https://www.nature.com/articles/s41467-026-76287-9?error=cookies_not_supported"><summary>Abstract</summary>

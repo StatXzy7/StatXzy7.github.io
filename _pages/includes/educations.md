@@ -8,7 +8,7 @@
           <div><h3>The Chinese University of Hong Kong</h3><p class="entry-role">Ph.D. in Mathematics · Hong Kong</p></div>
           <img class="entry-logo" src="{{ '/images/logos/cuhk.png' | relative_url }}" alt="The Chinese University of Hong Kong emblem" width="192" height="192" loading="lazy" decoding="async">
         </div>
-        <p>Supervisors: <a href="https://www.math.cuhk.edu.hk/~zeng/">Prof. Tieyong Zeng</a> and <a href="https://www.math.cuhk.edu.hk/~lliu/">Prof. Liu Liu</a>.</p>
+        <p>Supervisors: <a href="https://scholar.google.com/citations?user=2yyTgRwAAAAJ&amp;hl=zh-CN">Prof. Tieyong Zeng</a> and <a href="https://www.math.cuhk.edu.hk/~lliu/">Prof. Liu Liu</a>.</p>
       </div>
     </article>
     <article class="timeline-entry">
