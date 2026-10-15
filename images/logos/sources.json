@@ -73,18 +73,5 @@
     ],
     "sha256": "ac558bd1a2e81d031248551e56d9d08280fd0e9dd11cb9a6ecf480613ece8936",
     "note": "Unwatermarked emblem from a school-emblem article; official school website was unavailable"
-  },
-  {
-    "institution": "ModelBest",
-    "file": "modelbest.png",
-    "source_page": "https://www.shixiseng.com/com/com_oi6ccqyisa6o",
-    "source_asset": "https://hr-resources.shixiseng.com/20230323/f9da6c81b5cb449bab4d9cf08266af32.png",
-    "retrieved_on": "2026-10-11",
-    "dimensions": [
-      400,
-      400
-    ],
-    "sha256": "e513f6ac28cb45679d3f30f6f15e7fd988b8bbcb420a5535e4cfe8cac4b4b213",
-    "note": "ModelBest symbol-only corporate logo from the company recruiting profile; original downloaded image, without text"
   }
 ]

@@ -2,16 +2,6 @@
   <div class="section-heading"><h2 id="experience-title">Experience</h2></div>
   <div class="timeline">
     <article class="timeline-entry">
-      <p class="entry-date">Oct 2026 — Present</p>
-      <div class="entry-content">
-        <div class="entry-heading">
-          <div><h3>Research Intern, AI4S / AI4AI</h3><p class="entry-company"><a href="https://www.modelbest.cn/en/">ModelBest</a> · Internship</p></div>
-          <img class="entry-logo" src="{{ '/images/logos/modelbest.png' | relative_url }}" alt="ModelBest logo" width="400" height="400" loading="lazy" decoding="async">
-        </div>
-        <p>Research intern in the Intelligent Evolution Lab, focusing on AI for Science and AI for AI.</p>
-      </div>
-    </article>
-    <article class="timeline-entry">
       <p class="entry-date">Oct 2024 — Oct 2025</p>
       <div class="entry-content">
         <div class="entry-heading">
